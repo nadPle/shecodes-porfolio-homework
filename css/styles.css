@@ -77,10 +77,34 @@ p {
 }
 
 .email-link:hover {
-  text-decoration: underline;
-  color: rgb(116, 13, 175);
+  text-decoration: none;
+  color: rgb(63, 2, 99);
 }
 
 .col-background {
   background: var(--secondary-color);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  .app-images {
+    display: none;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
